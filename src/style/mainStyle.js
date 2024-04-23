@@ -19,10 +19,10 @@ const styles = StyleSheet.create({
   },
   current: {
     flex:1,
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 20,
+    padding: 10,
     gap: 20,
     shadowColor: '#000',
     shadowOffset: {
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   currentDescription: {
-    fontSize: 24,
+    fontSize: 20,
     marginTop: 10
   },
 
